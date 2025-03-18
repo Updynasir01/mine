@@ -331,8 +331,7 @@ function App() {
             className="relative mb-12"
           >
             <h1 className="text-4xl md:text-5xl font-bold cursive text-pink-600">
-              Happy Birthday Habibti!
-            </h1>
+              Happy Birthday mcnbadanteyda          </h1>
             <motion.div
               animate={{ y: [0, -5, 0] }}
               transition={{ duration: 2, repeat: Infinity }}
