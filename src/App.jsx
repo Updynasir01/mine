@@ -1,6 +1,16 @@
 import React, { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { HeartIcon, CakeIcon, SparklesIcon, StarIcon, GiftIcon, ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/solid'
+import AudioPlayer from './components/AudioPlayer'
+
+// Try to import the audio file if it exists
+let backgroundMusic
+try {
+  backgroundMusic = new URL('./assets/audio/background-music.mp3', import.meta.url).href
+} catch (error) {
+  console.warn('Background music file not found. Please add background-music.mp3 to the assets/audio directory.')
+  backgroundMusic = null
+}
 
 // Import images
 import img1 from './assets/images/yu.jpg'
@@ -224,6 +234,7 @@ function App() {
 
   return (
     <div className="min-h-screen flex items-center justify-center p-4 bg-gradient-to-br from-pink-100 via-white to-pink-100 relative overflow-hidden">
+      <AudioPlayer audioSource={backgroundMusic} />
       {/* Floating Elements */}
       {[...Array(15)].map((_, i) => (
         <motion.div
