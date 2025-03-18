@@ -133,12 +133,12 @@ function App() {
 
   const slides = [
     {
-      title: "My Dearest Habibti",
+      title: "My Dearest Queen",
       content: "From the moment I met you, my world became brighter and more beautiful. Your presence in my life is the greatest gift I could ever ask for. You're my everything! 💝",
       emoji: "👑"
     },
     {
-      title: "My Sweet Habibti",
+      title: "My Sweetheart",
       content: "Your smile is like sunshine, your laugh is my favorite melody, and your love is the most precious treasure. Every day with you is like a beautiful dream! ✨",
       emoji: "🌟"
     },
@@ -153,7 +153,7 @@ function App() {
       emoji: "😇"
     },
     {
-      title: "My Beloved Habibti",
+      title: "My Beloved Princess",
       content: "Every moment with you is pure magic. Your love fills my heart with endless joy, and your presence makes my life complete. You're my dream come true! 💫",
       emoji: "💑"
     }
@@ -216,7 +216,7 @@ function App() {
     },
     {
       url: img3,
-      caption: "Together forever, my Habibti 💑"
+      caption: "Together forever,  Habibti 💑"
     },
     {
       url: img4,
